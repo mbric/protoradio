@@ -8,16 +8,48 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
   body
     nav(class='light-blue lighten-1', role='navigation')
-    div(class='nav-wrapper container')
-        a(id='logo-container', href='#', class='brand-logo') Logo
-        ul(class='right hide-on-med-and-down') 
-            li
-              a(href='#') Navbar Link
-        ul(id='nav-mobile', class='side-nav') 
-            li
-              a(href='#') Navbar Link
-        a(href='#', data-activates='nav-mobile', class='button-collapse')
-            i(class='material-icons') menu
+        div(class='nav-wrapper container')
+            a(id='logo-container', href='#', class='brand-logo') Logo
+            ul(class='right hide-on-med-and-down') 
+                li
+                  a(href='#') Navbar Link
+            ul(id='nav-mobile', class='side-nav') 
+                li
+                  a(href='#') Navbar Link
+            a(href='#', data-activates='nav-mobile', class='button-collapse')
+                i(class='material-icons') menu
+    block content
+    footer(class='page-footer orange')
+        div(class='container')
+            div(class='row')
+                div(class='col l6 s12')
+                    h5(class='white-text') Company Bio
+                    p(class='grey-text text-lighten-4') We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.
+                div(class='col l3 s12')
+                    h5(class='white-text') Settings
+                    ul
+                      li
+                        a(class='white-text', href='#!') Link 1
+                      li
+                        a(class='white-text', href='#!') Link 2
+                      li
+                        a(class='white-text', href='#!') Link 3
+                      li
+                        a(class='white-text', href='#!') Link 4
+                div(class='col l3 s12')
+                    h5(class='white-text') Connect
+                    ul
+                      li
+                        a(class='white-text', href='#!') Link 1
+                      li
+                        a(class='white-text', href='#!') Link 2
+                      li
+                        a(class='white-text', href='#!') Link 3
+                      li
+                        a(class='white-text', href='#!') Link 4
+        div(class='footer-copyright')
+            div(class='container') Made by 
+                a(class='orange-text text-lighten-3', href='http://materializecss.com') Materialize
     script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
     script(type='text/javascript', src='javascripts/materialize.min.js')
     script(type='text/javascript', src='javascripts/init.js')
